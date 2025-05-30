@@ -1,0 +1,55 @@
+body{
+    height: 100vh;
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+button{
+    font-size: x-large;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.zero{
+    width: 177px;
+}
+
+.daddy{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    margin: auto;
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+.row-1 button{
+    background-color:indianred;
+    color: antiquewhite;
+}
+
+
+
+.screen {
+      display: flex;
+    width: 100%;
+    min-width: 0;                /* CRITICAL for flex children! */
+    box-sizing: border-box;
+    background-color: #7eff66;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow-x: auto;            /* Enables horizontal scrolling if needed */
+    white-space: nowrap;         /* Prevents wrapping to multiple lines */
+    font-size: inherit; 
+    justify-content: flex-end;
+    text-align: right;            /* Required for flex children to shrink properly */
+
+}
+
